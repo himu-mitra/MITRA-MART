@@ -8,7 +8,8 @@
 }
 
 .heroMes{
-    background-color: #FF0080;
+    /* background-color: #FF0080; */
+    background-color: palevioletred;
     height: 30px;
     width: 80%;
     display: flex;
