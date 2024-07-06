@@ -1,0 +1,43 @@
+.shopSection{
+    height: auto;
+    background-color: aliceblue;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.box1{
+    height: 250px;
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FF0080;
+    background-color: #FF0080;
+    border-radius: 5px;
+
+}
+
+.boxPic{
+    height: 190px;
+    width: 100%;
+    background-image: url("../components/4.jpg");
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #FF0080;
+}
+
+.boxBio{
+
+
+    /* width: 100%; */
+    text-align: center;
+    margin-top: 5px;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 2px solid darkcyan; */
+}

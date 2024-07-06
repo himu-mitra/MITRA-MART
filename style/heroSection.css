@@ -1,0 +1,22 @@
+.heroSection{
+    background-image: url("../components/gg3.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.heroMes{
+    background-color: #FF0080;
+    height: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 20px auto 12px auto;
+}
+

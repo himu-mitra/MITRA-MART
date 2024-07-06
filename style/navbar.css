@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: ghostwhite;
+    /* background-color: #FF0080; */
+    height: 60px;
+    align-items: center;
+
+
+}
+
+.navBar{
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+
+
+}
+
+
+.mitraMartLogo{
+    height: 45px;
+    width: 70px;
+    margin-left: 20px;
+    margin-right: 30px;
+
+}
+
+.delevaryAddress{
+    display: flex; 
+}
+
+.navSearch{
+    display: flex;
+
+    width: 420px;
+    height: 40px;
+    border-radius: 5px;
+    /* justify-content: space-between; */
+
+
+}
+
+.searchSelect{
+    border-radius: 5px 0px 0px 5px;
+    background-color: #FF0080;
+    width: 50px;
+    text-align: center;
+    border: none;
+
+}
+
+.searchInput{
+    width: 100%;
+    border: 1px solid #FF0080;
+    outline: none;
+}
+
+.searchIcon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF0080;
+    border-radius: 0 5px 5px 0;
+}
+
+/* .text {
+    color: #FF0080;
+
+
+
+} */
+
+.cartIcon{
+    font-size: 25px;
+    color: #FF0080;
+}
+
+.cart{
+    display: flex;
+
+}
